@@ -43,7 +43,7 @@ namespace HRMS.Infrastructure.Services
                 issuer: issuer,
                 audience: audience,
                 claims: claims,
-                expires: DateTime.UtcNow.AddYears(8),
+                expires: DateTime.UtcNow.AddDays(7),
                 signingCredentials: credentials
             );
 
